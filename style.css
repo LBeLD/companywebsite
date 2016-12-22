@@ -1,0 +1,92 @@
+body {
+  font-family: Arvo, sans-serif;
+  background:url(images/office_background.jpg) no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+.logo {
+  height: 30px;
+}
+
+.navbar-inverse {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#navbarCollapse .nav li {
+  color: red;
+  font-size: 17px;
+  margin-right: 35px;
+  padding: 10px 0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #3674d1;
+    border-bottom: 1px solid #ffffff;;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+.jumbotron {
+  background-color: transparent;
+  text-align: center;
+  margin:0;
+  padding:10px;
+
+}
+
+.jumbotron .container {
+  margin-bottom: 50px;
+}
+
+.container {
+  max-width: 1000px;
+}
+.iconImages {
+  height: 100px;
+  width: 100px;
+}
+
+.col-md-4 {
+  text-align: center;
+
+}
+
+.icons p {
+  font-size: 15px;
+
+}
+
+.contact {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.btn {
+  background-color: rgba(0,112,255,0.5);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px 70px;
+  color: white;
+  letter-spacing: 1.5px;
+
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color:#ffffff;
+  text-align: center;
+  padding:10px, 0;
+}
+
+@media (max-width:768px){
+  .iconImages {
+    height:70px;
+  }
+}
